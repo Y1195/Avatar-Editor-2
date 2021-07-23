@@ -77,7 +77,7 @@ end
 
 return function()
 	local list = {
-		url = "https://raw.githubusercontent.com/Y1195/AE2/master/",
+		url = "https://raw.githubusercontent.com/Y1195/Avatar-Editor-2/master/",
 		paths = {
 			children = {},
 			name = "src",
