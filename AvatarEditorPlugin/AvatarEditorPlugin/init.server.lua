@@ -9,8 +9,8 @@ One button to add items to the list
 
 ]]
 
-local VERSION_URL = "https://raw.githubusercontent.com/Y1195/AE2/master/version.txt"
-local FILELIST_URL = "https://raw.githubusercontent.com/Y1195/AE2/master/filelist.json"
+local VERSION_URL = "https://raw.githubusercontent.com/Y1195/Avatar-Editor-2/master/version.txt"
+local FILELIST_URL = "https://raw.githubusercontent.com/Y1195/Avatar-Editor-2/master/filelist.json"
 local CATALOG_MODEL_URL = "http://www.roblox.com/asset/?id=7130988837"
 local VERSION_OBJ_NAME = "VERSION"
 local DEFAULT_SETTINGS = {
