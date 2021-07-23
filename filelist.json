@@ -1,0 +1,476 @@
+{
+	"url": "https://raw.githubusercontent.com/Y1195/AE2/master/",
+	"paths": {
+		"name": "src",
+		"children": [
+			{
+				"name": "ReplicatedStorage",
+				"children": [
+					{
+						"name": "AvatarEditor",
+						"children": [
+							{
+								"name": "Client",
+								"children": [
+									{
+										"name": "Wearing.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "TabButton.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Search.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Scale.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "ColorList.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "CatalogList.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "GuiLib",
+										"children": [
+											{
+												"name": "Utilities",
+												"children": [
+													{
+														"name": "Maid.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "Spring.lua",
+														"children": [],
+														"type": "file"
+													}
+												],
+												"type": "directory"
+											},
+											{
+												"name": "LazyLoader.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Classes",
+												"children": [
+													{
+														"name": "Dragger.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "TextMask.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "CheckboxLabel.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "RadioButtonLabel.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "RadioButtonGroup.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "Slider.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "Dropdown.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "RadialMenu.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "Children",
+														"children": [
+															{
+																"name": "RadialMenu",
+																"children": [
+																	{
+																		"name": "CONSTANTS.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "CreateRadial.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "Triangle.lua",
+																		"children": [],
+																		"type": "file"
+																	}
+																],
+																"type": "directory"
+															},
+															{
+																"name": "TextMask",
+																"children": [
+																	{
+																		"name": "Number.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "String.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "Vector2.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "Vector3.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "Integer.lua",
+																		"children": [],
+																		"type": "file"
+																	},
+																	{
+																		"name": "Alphanumberic.lua",
+																		"children": [],
+																		"type": "file"
+																	}
+																],
+																"type": "directory"
+															}
+														],
+														"type": "directory"
+													}
+												],
+												"type": "directory"
+											},
+											{
+												"name": "Constructors",
+												"children": [
+													{
+														"name": "List.lua",
+														"children": [],
+														"type": "file"
+													}
+												],
+												"type": "directory"
+											}
+										],
+										"type": "directory"
+									},
+									{
+										"name": "Costume.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "PromptOverlay.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Theme.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Config.lua",
+										"children": [],
+										"type": "file"
+									}
+								],
+								"type": "directory"
+							},
+							{
+								"name": "Shared",
+								"children": [
+									{
+										"name": "CatalogData.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Colors.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Util",
+										"children": [
+											{
+												"name": "Maid.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Promise.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Signal.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Spring.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "TableUtil.lua",
+												"children": [],
+												"type": "file"
+											}
+										],
+										"type": "directory"
+									},
+									{
+										"name": "QueryMap.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Settings.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Cache.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "GetProductInfo.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "UserCanUse.lua",
+										"children": [],
+										"type": "file"
+									}
+								],
+								"type": "directory"
+							},
+							{
+								"name": "AvatarEditorClient.lua",
+								"children": [],
+								"type": "file"
+							},
+							{
+								"name": "Themes",
+								"children": [
+									{
+										"name": "Default.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Light.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "OLED.lua",
+										"children": [],
+										"type": "file"
+									}
+								],
+								"type": "directory"
+							},
+							{
+								"name": "Gui",
+								"children": [
+									{
+										"name": "DropdownTemplateToLua.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "ButtonTemplateToLua.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "ColorTemplateToLua.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "CostumeTemplateToLua.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "AvatarEditorGuiToLua.lua",
+										"children": [],
+										"type": "file"
+									}
+								],
+								"type": "directory"
+							}
+						],
+						"type": "directory"
+					}
+				],
+				"type": "directory"
+			},
+			{
+				"name": "ServerStorage",
+				"children": [
+					{
+						"name": "AvatarEditorServer.lua",
+						"children": [],
+						"type": "file"
+					}
+				],
+				"type": "directory"
+			},
+			{
+				"name": "ServerScriptService",
+				"children": [
+					{
+						"name": "Script",
+						"children": [
+							{
+								"name": "init.server.lua",
+								"children": [],
+								"type": "file"
+							},
+							{
+								"name": "ProfileService.lua",
+								"children": [],
+								"type": "file"
+							}
+						],
+						"type": "directory"
+					}
+				],
+				"type": "directory"
+			},
+			{
+				"name": "StarterPlayer",
+				"children": [
+					{
+						"name": "StarterPlayerScripts",
+						"children": [
+							{
+								"name": "LocalScript",
+								"children": [
+									{
+										"name": "init.client.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Distort.lua",
+										"children": [],
+										"type": "file"
+									},
+									{
+										"name": "Icon",
+										"children": [
+											{
+												"name": "init.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "IconController.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Maid.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Signal.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "Themes",
+												"children": [
+													{
+														"name": "init.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "BlueGradient.lua",
+														"children": [],
+														"type": "file"
+													},
+													{
+														"name": "Default.lua",
+														"children": [],
+														"type": "file"
+													}
+												],
+												"type": "directory"
+											},
+											{
+												"name": "TopbarPlusGui.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "TopbarPlusReference.lua",
+												"children": [],
+												"type": "file"
+											},
+											{
+												"name": "VERSION.lua",
+												"children": [],
+												"type": "file"
+											}
+										],
+										"type": "directory"
+									}
+								],
+								"type": "directory"
+							}
+						],
+						"type": "directory"
+					}
+				],
+				"type": "directory"
+			}
+		],
+		"type": "directory"
+	}
+}

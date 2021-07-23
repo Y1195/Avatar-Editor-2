@@ -1,0 +1,10 @@
+# Project place file
+*.rbxl
+src/ServerStorage/Garbage
+src/Workspace
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+*.meta.json
