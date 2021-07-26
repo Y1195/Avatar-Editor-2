@@ -50,13 +50,13 @@ Events:
 
 local GuiLib = script.Parent.Parent
 local Lazy = require(GuiLib:WaitForChild("LazyLoader"))
-local Defaults = GuiLib:WaitForChild("Defaults")
+-- local Defaults = GuiLib:WaitForChild("Defaults")
 
 local UIS = game:GetService("UserInputService")
 local RUNSERVICE = game:GetService("RunService")
 
-local SLIDER_FRAMEX = Defaults:WaitForChild("SliderFrameX")
-local SLIDER_FRAMEY = Defaults:WaitForChild("SliderFrameY")
+-- local SLIDER_FRAMEX = Defaults:WaitForChild("SliderFrameX")
+-- local SLIDER_FRAMEY = Defaults:WaitForChild("SliderFrameY")
 
 local XBOX_STEP = 0.01
 local DEBOUNCE_TICK = 0.1
@@ -101,18 +101,18 @@ function SliderClass.new(sliderFrame, axis)
 	return self
 end
 
-function SliderClass.Create(axis)
-	local slider = nil
+-- function SliderClass.Create(axis)
+-- 	local slider = nil
 	
-	if (not axis or axis == "x") then
-		slider = SliderClass.new(SLIDER_FRAMEX:Clone(), axis)
-	else
-		slider = SliderClass.new(SLIDER_FRAMEY:Clone(), axis)
-		slider.Inverted = true
-	end
+-- 	if (not axis or axis == "x") then
+-- 		slider = SliderClass.new(SLIDER_FRAMEX:Clone(), axis)
+-- 	else
+-- 		slider = SliderClass.new(SLIDER_FRAMEY:Clone(), axis)
+-- 		slider.Inverted = true
+-- 	end
 	
-	return slider
-end
+-- 	return slider
+-- end
 
 -- Private Methods
 

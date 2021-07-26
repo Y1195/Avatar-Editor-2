@@ -35,7 +35,7 @@ Events:
 
 local GuiLib = script.Parent.Parent
 local Lazy = require(GuiLib:WaitForChild("LazyLoader"))
-local Defaults = GuiLib:WaitForChild("Defaults")
+-- local Defaults = GuiLib:WaitForChild("Defaults")
 
 local UIS = game:GetService("UserInputService")
 
@@ -47,7 +47,7 @@ local VALID_PRESS = {
 local ARROW_UP = "rbxassetid://5154078925"
 local ARROW_DOWN = "rbxassetid://5143165549"
 
-local DROP_BUTTON = Defaults:WaitForChild("DropdownButton")
+-- local DROP_BUTTON = Defaults:WaitForChild("DropdownButton")
 
 -- Class
 
@@ -79,19 +79,19 @@ function DropdownClass.new(button, listFrame)
 	return self
 end
 
-function DropdownClass.Create(list, max)
-	max = max or #list
+-- function DropdownClass.Create(list, max)
+-- 	max = max or #list
 	
-	local button = DROP_BUTTON:Clone()
-	local listFrame = Lazy.Constructors.List.Create(list, max)
+-- 	local button = DROP_BUTTON:Clone()
+-- 	local listFrame = Lazy.Constructors.List.Create(list, max)
 	
-	listFrame.Position = UDim2.new(0, 0, 1, 0)
-	listFrame.Size = UDim2.new(1, 0, max, 0)
-	listFrame.Visible = false
-	listFrame.Parent = button
+-- 	listFrame.Position = UDim2.new(0, 0, 1, 0)
+-- 	listFrame.Size = UDim2.new(1, 0, max, 0)
+-- 	listFrame.Visible = false
+-- 	listFrame.Parent = button
 	
-	return DropdownClass.new(button, listFrame)
-end
+-- 	return DropdownClass.new(button, listFrame)
+-- end
 
 -- Private Methods
 
