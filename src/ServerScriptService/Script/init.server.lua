@@ -26,27 +26,35 @@ local profileStore = ProfileService.GetProfileStore(DATASTORE_NAME, {
 local function humanoidDescriptionChanged(player, description)
 	local info = AE:ToAppearanceInfo(description)
 	local profile = playerProfiles[player]
-	profile.Data.Avatar.Equipped = info
+	if profile then
+		profile.Data.Avatar.Equipped = info
+	end
 end
 
 
 local function outfitAdded(player, description, info, index)
 	local profile = playerProfiles[player]
-	table.insert(profile.Data.Avatar.Costumes, info)
+	if profile then
+		table.insert(profile.Data.Avatar.Costumes, info)
+	end
 	--print(#game:GetService("HttpService"):JSONEncode(profile.Data.Avatar.Costumes))
 end
 
 
 local function outfitRemoved(player, description, info, index)
 	local profile = playerProfiles[player]
-	table.remove(profile.Data.Avatar.Costumes, index)
+	if profile then
+		table.remove(profile.Data.Avatar.Costumes, index)
+	end
 	--print(profile.Data.Avatar.Costumes)
 end
 
 
 local function settingChanged(player, setting, value)
 	local profile = playerProfiles[player]
-	profile.Data.Avatar.Settings[setting] = value
+	if profile then
+		profile.Data.Avatar.Settings[setting] = value
+	end
 end
 
 
